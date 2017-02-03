@@ -29,13 +29,11 @@ h3{
   color:  #000000;
   margin-top: 50px;
   padding: 30px;
-  position: relative;
+
 }
 
 #buttonsRow {
  margin: auto;
-display: inline-block;
-position: absolute;
 }
 
 #newQuoteButton {
@@ -46,10 +44,10 @@ position: absolute;
  width: 150px;
  font-size:24px;
  color: white;
- position: absolute;
- margin-left: 400px;
-margin-top: 30px;
-float: center;
+ margin-top: 30px;
+ margin-left:auto;
+ margin-right:auto;
+ display:block;
 }
 
 #buttonToTwitter {
@@ -60,10 +58,10 @@ float: center;
   width: 50px;
   font-size:24px;
   color: white;
-  margin-left: 600px;
-  margin-top: 30px;
-  float: center;
-  position: absolute;
+  margin-top: 10px;
+  margin-left:auto;
+  margin-right:auto;
+  display: block;
 
 }
 
