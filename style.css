@@ -5,11 +5,17 @@ body {
 #header {
   margin-top:20px;
   background: #e6eeff;
+  text-align: center;
 }
 
 h1{
   font-size: 50px;
   font-weight: bold;
+  font-family: 'Cabin', sans-serif;
+}
+
+h3{
+  font-family: 'Raleway', sans-serif;
 }
 
 .jumbotron {
@@ -23,19 +29,27 @@ h1{
   color:  #000000;
   margin-top: 50px;
   padding: 30px;
+  position: relative;
 }
 
-#buttonBox {}
+#buttonsRow {
+ margin: auto;
+display: inline-block;
+text-align: center;
+position: absolute;
+}
 
 #newQuoteButton {
  background-color:rgb(255, 82, 82);
  border:none;
  border-radius:5px;
  height: 50px;
+ width: 150px;
  font-size:24px;
  color: white;
- margin: 10px;
-
+ position: absolute;
+ margin-left: 200px;
+margin-top: 30px;
 }
 
 #buttonToTwitter {
@@ -46,8 +60,10 @@ h1{
   width: 50px;
   font-size:24px;
   color: white;
-  margin: 10px;
-  margin-top: 10px;
+  margin-left: 500px;
+  margin-top: 30px;
+  position: absolute;
+
 }
 
 #newQuoteButton:focus, #buttonToTwitter:focus{
