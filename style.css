@@ -1,1 +1,55 @@
 
+body {
+  background: #e6eeff;
+}
+#header {
+  margin-top:20px;
+  background: #e6eeff;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.jumbotron {
+  background:rgb(242, 242, 242);
+  border-radius: 15px;
+  height: auto;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  color:  #000000;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+#buttonBox {}
+
+#newQuoteButton {
+ background-color:rgb(255, 82, 82);
+ border:none;
+ border-radius:5px;
+ height: 50px;
+ font-size:24px;
+ color: white;
+ margin: 10px;
+
+}
+
+#buttonToTwitter {
+  background-color:rgb(255, 82, 82);
+  border:none;
+  border-radius:5px;
+  height: 50px;
+  width: 50px;
+  font-size:24px;
+  color: white;
+  margin: 10px;
+  margin-top: 10px;
+}
+
+#newQuoteButton:focus, #buttonToTwitter:focus{
+  outline: none;
+}
